@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quemming</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="shortcut icon" href="/Projeto Facul/Imagens/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <img src="/Projeto Facul/Imagens/nova logo.png" alt="Logotipo" class="logo">
+        </div>
+    </header>
+    <section>
+        <div class="insercoes">
+            <p class="txt1" id="txt1">Digite seu gmail:</p>
+            <input type="email" name="email" class="digitar" autocomplete="off" onblur="validacaoEmail(email)" id="email">
+            <p class="txt1">Digite sua senha:</p>
+            <input type="password" name="senha" class="digitar" autocomplete="off" id="senha">
+            <p class="txt1">Confirme sua senha:</p>
+            <input type="password" name="senha" class="digitar" autocomplete="off" id="senha2">
+        </div>
+        <div class="resposta">
+            <button class="Botão" id="enter" onclick="Enter()">Login</button>
+        </div>
+        <div id="erro" class="erro"></div>
+    </section>
+    <footer>
+        <p class="marca-agua">&copy; Quemming</p>
+    </footer>   
+    <script src="cadastro.js"></script>
+</body>
+</html>

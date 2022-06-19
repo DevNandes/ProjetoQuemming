@@ -1,0 +1,301 @@
+head{
+    background-color: rgb(0, 0, 0);
+}
+body{
+    background-color: black;
+}
+.logo_dentro{
+    width: 200px;
+}
+#menu{
+    padding-left: 20px;
+}
+.menu_homepage{
+    display: flex;
+    align-items: center;
+
+}
+.menu{
+    color: rgb(255, 255, 255);
+    background: black;
+    cursor: pointer;
+    border-left: 2px solid rgb(255, 255, 255) ;
+    border-right: 2px solid rgb(255, 255, 255);
+    font-size: 14pt;
+}
+.Topicos{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: black;
+    border-left: 2px solid rgb(255, 255, 255) ;
+    border-right: 2px solid rgb(255, 255, 255);
+    font-size: 14pt;
+}
+.imagem_perfil{
+    width: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.tudin{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    background-image: url(Imagens/programador.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+body{
+    margin-top: 4px;
+}
+
+.titulo{
+    font-size: 40pt;
+    color: white;
+    font-family: 'Mansalva', cursive;
+    text-shadow: 5px 5px 10px rgb(148, 148, 148);
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+.profile-duvida{
+    background-image: url(Imagens/R.png);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+
+.usuario{
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    margin-left: 8px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.envio{
+    color: white;
+    font-style:italic;
+    font-size: 8pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+
+}
+
+.duvida{
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    padding-left: 6px;
+}
+
+.preenchimento{
+    display: flex;
+    flex-direction: column;
+}
+
+.teste{
+    display: flex;
+    border-radius: 10px;
+    border: 4px solid white;
+    padding: 8px;
+    box-shadow: 5px 5px 10px rgb(148, 148, 148);
+    margin-bottom: 10px;
+}
+
+.duvidas{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Javascript{
+    border-radius: 10px;
+    border-left: 3px solid white;
+    border-right: 4px solid white;
+    padding: 8px;
+    box-shadow: 5px 5px 10px rgb(148, 148, 148);
+    margin-bottom: 50px;
+    border-top: 1px solid white;
+    border-bottom: 2px solid white;
+
+}
+
+.titulo2{
+    padding-left: 50px;
+    font-size: 32pt;
+    color: white;
+    font-family: 'Mansalva', cursive;
+    text-shadow: 5px 5px 10px rgb(148, 148, 148);
+    margin: 0;
+}
+
+.end-interative{
+    color: white;
+    font-style:italic;
+    font-size: 8pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    cursor: pointer;
+    text-decoration: underline;
+    display: flex;
+}
+
+.comentarios{
+    padding-left: 10px;
+}
+
+.colocar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marcador{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.marca{
+    background-color: blue;
+    color: blue;
+}
+
+.titulin{
+    border-radius: 10px;
+    border-left: 3px solid white;
+    border-right: 4px solid white;
+    padding: 0px;
+    box-shadow: 5px 5px 10px rgb(148, 148, 148);
+    margin-bottom: 25px;
+    border-top: 1px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 50px;
+}
+
+.texto-preencher{
+    font-size: 15pt;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.botaozin{
+    display: flex;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    box-shadow: 2px 2px 4px white;
+}
+
+.usuario-duvida{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    width: 130px;
+    height: 20px;
+    font-size: 9pt;
+    color: white;
+}
+
+.duvida-preencher{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    width: 400px;
+    height: 30px;
+    font-size: 9pt;
+    color: white;
+}
+
+.titulo3{
+    font-size: 40pt;
+    color: white;
+    font-family: 'Mansalva', cursive;
+    text-shadow: 5px 5px 10px rgb(148, 148, 148);
+    text-align: center;
+    margin: 0px;
+}
+
+.faellnandes{
+    background-image: url(Imagens/IMG_20220605_143214.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+
+.pedro{
+    background-image: url(Imagens/pedro.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+
+.guapo{
+    background-image: url(Imagens/warzone.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+
+.freefire{
+    background-image: url(Imagens/freefire.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+
+.enzo{
+    background-image: url(Imagens/anime.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+
+.joao{
+    background-image: url(Imagens/minecraft.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
