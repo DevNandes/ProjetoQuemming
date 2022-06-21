@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quemming</title>
+    <link rel="stylesheet" href="/ProjetoFacul/home.css">
+    <link rel="icon" href="/ProjetoFacul/Imagens/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tudin" id="menu_homepage">
+        <div class="menu_homepage">
+            <img src="/ProjetoFacul/Imagens/nova logo.png" alt="Logotipo" class="logo_dentro" id="logo_dentro">
+            <a href="/ProjetoFacul/home.html" id="menu"><button class="Topicos">Tópicos</button></a>
+            <a href="avaliacao.html" id="menu"><button class="menu">Avaliação</button></a>
+            <a href="suporte.html" id="menu"><button class="menu">Suporte</button></a>
+        </div>
+        <button class="profile"></button>
+    </div>
+    <div class="titulin">
+        <h2 class="titulo3">Nos Avalie para ajudar a Comunidade!</h2>
+        <div class="colocar">
+            <p class="texto-preencher">Qual o seu email?</p>
+            <input type="email" class="usuario-duvida" id="nome_usuario">
+            <p class="texto-preencher">Digite aqui sua opnião sobe o Fórum?</p>
+            <input type="text" class="duvida-preencher" id="duvida">
+            <p class="texto-preencher">Quantas estrelas voce nos daria?</p>
+            <div class="marcador">
+                <input type="radio" name="mark" id="frontend" class="marca">1 Estrelas
+                <input type="radio" name="mark" id="Back-end" class="marca">2 Estrelas
+                <input type="radio" name="mark" id="APIs" class="marca">3 Estrelas
+                <input type="radio" name="mark" id="APIs" class="marca">4 Estrelas
+                <input type="radio" name="mark" id="Outros" class="marca" checked>5 Estrelas
+            </div>
+            <input type="button" value="Enviar" class="botaozin" onclick="publicar()">
+            
+        </div>
+    </div>
+</body>
+<script src="avaliacao.js"></script>
+</html>

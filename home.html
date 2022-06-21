@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quemming</title>
+    <link rel="stylesheet" href="home.css">
     <link rel="icon" href="Imagens/favicon.png"/>
-    <link rel="import" href="home.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
     <div class="tudin" id="menu_homepage">
         <div class="menu_homepage">
             <img src="Imagens/nova logo.png" alt="Logotipo" class="logo_dentro" id="logo_dentro">
-            <a href="menu/topico.html" id="menu"><button class="Topicos">Tópicos</button></a>
+            <a href="home.html" id="menu"><button class="Topicos">Tópicos</button></a>
             <a href="menu/avaliacao.html" id="menu"><button class="menu">Avaliação</button></a>
             <a href="menu/suporte.html" id="menu"><button class="menu">Suporte</button></a>
         </div>
@@ -25,17 +25,17 @@
         <h2 class="titulo3">Tem duvidas de Programação?</h2>
         <div class="colocar">
             <p class="texto-preencher">Qual seu nome de usuario?</p>
-            <input type="text" class="usuario-duvida">
+            <input type="text" class="usuario-duvida" id="nome_usuario">
             <p class="texto-preencher">Qual sua dúvida?</p>
-            <input type="text" class="duvida-preencher">
+            <input type="text" class="duvida-preencher" id="duvida">
             <p class="texto-preencher">Qual o tema da sua dúvida?</p>
             <div class="marcador">
-                <input type="radio" name="mark" id="Front-end" class="marca">Front-end
+                <input type="radio" name="mark" id="frontend" class="marca">Front-end
                 <input type="radio" name="mark" id="Back-end" class="marca">Back-end
-                <input type="radio" name="mark" id="API's" class="marca">API's
+                <input type="radio" name="mark" id="APIs" class="marca">API's
                 <input type="radio" name="mark" id="Outros" class="marca" checked>Outros
             </div>
-            <input type="button" value="Publicar" class="botaozin">
+            <input type="button" value="Publicar" class="botaozin" onclick="publicar()">
             
         </div>
     </div>
@@ -64,10 +64,26 @@
                 <div class="preenchimento">
                     <p class="usuario">freefire</p>
                     <p class="envio">Enviado a 9 dias</p>
-                    <p class="duvida">Como eu vinculo um arquivo HTML com o Javascript e CSS, é mais facil vincular ou<br> fazer tudo no mesmo arquivo?</p>
+                    <p class="duvida">Como eu vinculo um arquivo HTML com o Javascript e CSS, é mais facil vincular ou fazer tudo no mesmo arquivo?</p>
                     <div class="end-interative">
                         <p class="curtidas">Curtidas(21)</p>
                         <p class="comentarios">Comentarios(9)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a name="ancora1" id="ancora1"></a>
+        <div class="sua_duvida4" id="sua_duvida4">
+            <div class="teste">
+                <button class="anom"></button>
+                <div class="preenchimento">
+                    <p class="usuario" id="seu_usuario4">GUAPOOO</p>
+                    <p class="envio" id="tempo4">Enviado a 2 horas</p>
+                    <p class="duvida" id="sua_duvida04">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404], o Visual Studio Code não diz mais nada sobre isso, não sei o que fazer agora!</p>
+                    <div class="end-interative">
+                        <p class="curtidas">Curtidas(0)</p>
+                        <p class="comentarios">Comentarios(0)</p>
                     </div>
                 </div>
             </div>
@@ -108,8 +124,24 @@
                 </div>
             </div>
         </div>
-    </div>
 
+
+
+        <div class="sua_duvida2" id="sua_duvida2">
+            <div class="teste">
+                <button class="anom"></button>
+                <div class="preenchimento">
+                    <p class="usuario" id="seu_usuario2">GUAPOOO</p>
+                    <p class="envio" id="tempo2">Enviado a 2 horas</p>
+                    <p class="duvida" id="sua_duvida02">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404], o Visual Studio Code não diz mais nada sobre isso, não sei o que fazer agora!</p>
+                    <div class="end-interative">
+                        <p class="curtidas">Curtidas(0)</p>
+                        <p class="comentarios">Comentarios(0)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="Javascript">
         <h2 class="titulo2">API's:</h2>
@@ -119,7 +151,7 @@
                 <div class="preenchimento">
                     <p class="usuario">GUAPOOO</p>
                     <p class="envio">Enviado a 2 horas</p>
-                    <p class="duvida">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404], o<br>     Visual Studio Code não diz mais nada sobre isso, não sei o que fazer agora!</p>
+                    <p class="duvida">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404].</p>
                     <div class="end-interative">
                         <p class="curtidas">Curtidas(39)</p>
                         <p class="comentarios">Comentarios(14)</p>
@@ -143,8 +175,77 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="sua_duvida1" id="sua_duvida1">
+            <div class="teste">
+                <button class="anom"></button>
+                <div class="preenchimento">
+                    <p class="usuario" id="seu_usuario1">GUAPOOO</p>
+                    <p class="envio" id="tempo1">Enviado a 2 horas</p>
+                    <p class="duvida" id="sua_duvida01">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404], o Visual Studio Code não diz mais nada sobre isso, não sei o que fazer agora!</p>
+                    <div class="end-interative">
+                        <p class="curtidas">Curtidas(0)</p>
+                        <p class="comentarios">Comentarios(0)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Javascript">
+        <h2 class="titulo2">Outros:</h2>
+        <div class="duvidas">
+            <div class="teste">
+                <button class="enzo"></button>
+                <div class="preenchimento">
+                    <p class="usuario">dev_CarioK</p>
+                    <p class="envio">Enviado a 39 min</p>
+                    <p class="duvida">Por onde começo a estudar programação?</p>
+                    <div class="end-interative">
+                        <p class="curtidas">Curtidas(13)</p>
+                        <p class="comentarios">Comentarios(4)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="duvidas">
+            <div class="teste">
+                <button class="zeca"></button>
+                <div class="preenchimento">
+                    <p class="usuario">CyberCecurity</p>
+                    <p class="envio">Enviado a 39 segs</p>
+                    <p class="duvida">Alguem aqui sabe algo sobre vaga de emprego em cyber segurança?</p>
+                    <div class="end-interative">
+                        <p class="curtidas">Curtidas(25)</p>
+                        <p class="comentarios">Comentarios(8)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="sua_duvida3" id="sua_duvida3">
+            <div class="teste">
+                <button class="anom"></button>
+                <div class="preenchimento">
+                    <p class="usuario" id="seu_usuario3">GUAPOOO</p>
+                    <p class="envio" id="tempo3">Enviado a 2 horas</p>
+                    <p class="duvida" id="sua_duvida03">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404], o Visual Studio Code não diz mais nada sobre isso, não sei o que fazer agora!</p>
+                    <div class="end-interative">
+                        <p class="curtidas">Curtidas(0)</p>
+                        <p class="comentarios">Comentarios(0)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
-<link rel="stylesheet" href="home.css">
+<script src="home.js"></script>
 </html>
 

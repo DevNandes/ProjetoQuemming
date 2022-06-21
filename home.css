@@ -113,6 +113,7 @@ body{
     padding: 8px;
     box-shadow: 5px 5px 10px rgb(148, 148, 148);
     margin-bottom: 10px;
+    width: 700px;
 }
 
 .duvidas{
@@ -214,7 +215,7 @@ body{
     border-radius: 10px;
     border: 2px solid white;
     cursor: pointer;
-    width: 130px;
+    width: 200px;
     height: 20px;
     font-size: 9pt;
     color: white;
@@ -292,6 +293,59 @@ body{
 
 .joao{
     background-image: url(Imagens/minecraft.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+
+.zeca{
+    background-image: url(Imagens/zeca.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+
+.botaozin{
+    cursor: pointer;
+}
+
+.sua_duvida1{
+    padding-top: 20px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.sua_duvida2{
+    padding-top: 20px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sua_duvida3{
+    padding-top: 20px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sua_duvida4{
+    padding-top: 20px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.anom{
+    background-image: url(Imagens/R.png);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);
