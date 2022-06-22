@@ -4,7 +4,7 @@ function Enter(){
     let erro = document.getElementById('erro');
     if(email=='admin'){
         if(senha=='admin'){
-            window.location.replace("http://127.0.0.1:5500/ProjetoFacul/home/home.html")
+            window.location.replace("https://quemming.vercel.app/home/home.html")
         } else{
             erro.innerHTML = 'Senha incorreta! Tente novamente!';
             erro.style.color = 'red';
