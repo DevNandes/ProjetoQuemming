@@ -41,7 +41,7 @@ body{
     justify-content: space-between;
 }
 .profile{
-    background-image: url(Imagens/programador.jpg);
+    background-image: url(/ProjetoFacul/Imagens/programador.jpg);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);
@@ -64,7 +64,7 @@ body{
 }
 
 .profile-duvida{
-    background-image: url(Imagens/R.png);
+    background-image: url(/ProjetoFacul/Imagens/R.png);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);
@@ -242,7 +242,7 @@ body{
 }
 
 .faellnandes{
-    background-image: url(Imagens/IMG_20220605_143214.jpg);
+    background-image: url(/ProjetoFacul/Imagens/IMG_20220605_143214.jpg);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);
@@ -252,7 +252,7 @@ body{
 }
 
 .pedro{
-    background-image: url(Imagens/pedro.jpg);
+    background-image: url(/ProjetoFacul/Imagens/pedro.jpg);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);
@@ -262,7 +262,7 @@ body{
 }
 
 .guapo{
-    background-image: url(Imagens/warzone.jpg);
+    background-image: url(/ProjetoFacul/Imagens/warzone.jpg);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);
@@ -272,7 +272,7 @@ body{
 }
 
 .freefire{
-    background-image: url(Imagens/freefire.jpg);
+    background-image: url(/ProjetoFacul/Imagens/freefire.jpg);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);
@@ -282,7 +282,7 @@ body{
 }
 
 .enzo{
-    background-image: url(Imagens/anime.jpg);
+    background-image: url(/ProjetoFacul/Imagens/anime.jpg);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);
@@ -292,7 +292,7 @@ body{
 }
 
 .joao{
-    background-image: url(Imagens/minecraft.jpg);
+    background-image: url(/ProjetoFacul/Imagens/minecraft.jpg);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);
@@ -302,7 +302,7 @@ body{
 }
 
 .zeca{
-    background-image: url(Imagens/zeca.jpg);
+    background-image: url(/ProjetoFacul/Imagens/zeca.jpg);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);
@@ -345,7 +345,7 @@ body{
 }
 
 .anom{
-    background-image: url(Imagens/R.png);
+    background-image: url(/ProjetoFacul/Imagens/R.png);
     background-size: cover;
     border-radius: 25px;
     border: 3px solid rgb(255, 255, 255);

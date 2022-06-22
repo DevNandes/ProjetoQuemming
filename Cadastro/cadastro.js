@@ -6,7 +6,7 @@ function Enter(){
     if(senha.length >= 6){
         if(senha==senha2){
             window.alert('Cadastrado com sucesso!')
-            window.location.replace("http://127.0.0.1:5500/ProjetoFacul/login/index.html")
+            window.location.replace("http://127.0.0.1:5500/ProjetoFacul/index.html")
         } else{
             erro.innerHTML = 'As senhas não coincidem! Tente novamente!';
             erro.style.color = 'red';
