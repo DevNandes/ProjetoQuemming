@@ -79,9 +79,10 @@ footer{
     border-color: rgb(143, 143, 143);
     cursor: pointer;
     height: 28px;
-    width: 56px;
+    width: 80px;
     font-size: 11pt;
     display: none;
+    align-items: center
 }
 *{
     cursor: grab;

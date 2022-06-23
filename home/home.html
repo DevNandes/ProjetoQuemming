@@ -35,7 +35,7 @@
                 <input type="radio" name="mark" id="APIs" class="marca">API's
                 <input type="radio" name="mark" id="Outros" class="marca" checked>Outros
             </div>
-            <input type="button" value="Publicar" class="botaozin" onclick="publicar()">
+            <input type="button" value="Publicar" class="botaozin" id="enter" onclick="publicar()">
             
         </div>
     </div>
@@ -50,8 +50,17 @@
                     <p class="envio">Enviado a 10 min</p>
                     <p class="duvida">Como posso colocar diferentes fontes no Javascript? Não tenho noção e como fazer!</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(7)</p>
-                        <p class="comentarios">Comentarios(9)</p>
+                        <button class="curtidas" onclick="Curtir11()" id="curtidas1">
+                            Curtidas(<span id="curt11">11</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,8 +75,17 @@
                     <p class="envio">Enviado a 9 dias</p>
                     <p class="duvida">Como eu vinculo um arquivo HTML com o Javascript e CSS, é mais facil vincular ou fazer tudo no mesmo arquivo?</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(21)</p>
-                        <p class="comentarios">Comentarios(9)</p>
+                        <button class="curtidas" onclick="Curtir10()" id="curtidas1">
+                            Curtidas(<span id="curt10">29</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment1()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar1">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,8 +100,17 @@
                     <p class="envio" id="tempo4">Enviado a 2 horas</p>
                     <p class="duvida" id="sua_duvida04">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404], o Visual Studio Code não diz mais nada sobre isso, não sei o que fazer agora!</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(0)</p>
-                        <p class="comentarios">Comentarios(0)</p>
+                        <button class="curtidas" onclick="Curtir9()" id="curtidas1">
+                            Curtidas(<span id="curt9">0</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment2()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar2">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,8 +129,17 @@
                     <p class="envio">Enviado a 39 min</p>
                     <p class="duvida">Como faço para adicionar um item em uma lista Python? Sabendo que ela tem 19 itens.</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(13)</p>
-                        <p class="comentarios">Comentarios(4)</p>
+                        <button class="curtidas" onclick="Curtir8()" id="curtidas1">
+                            Curtidas(<span id="curt8">45</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment3()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar3">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -118,8 +154,17 @@
                     <p class="envio">Enviado a 39 segs</p>
                     <p class="duvida">Será que da para ligar Python com um site que já existe? To tentando fazer isso aqui...</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(25)</p>
-                        <p class="comentarios">Comentarios(8)</p>
+                        <button class="curtidas" onclick="Curtir7()" id="curtidas1">
+                            Curtidas(<span id="curt7">18</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment4()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar4">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -135,8 +180,17 @@
                     <p class="envio" id="tempo2">Enviado a 2 horas</p>
                     <p class="duvida" id="sua_duvida02">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404], o Visual Studio Code não diz mais nada sobre isso, não sei o que fazer agora!</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(0)</p>
-                        <p class="comentarios">Comentarios(0)</p>
+                        <button class="curtidas" onclick="Curtir6()" id="curtidas1">
+                            Curtidas(<span id="curt6">10</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment5()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar5">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -153,8 +207,17 @@
                     <p class="envio">Enviado a 2 horas</p>
                     <p class="duvida">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404].</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(39)</p>
-                        <p class="comentarios">Comentarios(14)</p>
+                        <button class="curtidas" onclick="Curtir5()" id="curtidas1">
+                            Curtidas(<span id="curt5">17</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment6()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar6">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,8 +232,17 @@
                     <p class="envio">Enviado a 1 mês</p>
                     <p class="duvida">Como eu posso usar API para ligar Python com um site em Javascript?</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(47)</p>
-                        <p class="comentarios">Comentarios(17)</p>
+                        <button class="curtidas" onclick="Curtir4()" id="curtidas1">
+                            Curtidas(<span id="curt4">13</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment7()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar7">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -185,8 +257,17 @@
                     <p class="envio" id="tempo1">Enviado a 2 horas</p>
                     <p class="duvida" id="sua_duvida01">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404], o Visual Studio Code não diz mais nada sobre isso, não sei o que fazer agora!</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(0)</p>
-                        <p class="comentarios">Comentarios(0)</p>
+                        <button class="curtidas" onclick="Curtir3()" id="curtidas1">
+                            Curtidas(<span id="curt3">0</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment8()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar8">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -204,8 +285,17 @@
                     <p class="envio">Enviado a 39 min</p>
                     <p class="duvida">Por onde começo a estudar programação?</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(13)</p>
-                        <p class="comentarios">Comentarios(4)</p>
+                        <button class="curtidas" onclick="Curtir2()" id="curtidas1">
+                            Curtidas(<span id="curt2">30</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment9()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar9">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -220,8 +310,17 @@
                     <p class="envio">Enviado a 39 segs</p>
                     <p class="duvida">Alguem aqui sabe algo sobre vaga de emprego em cyber segurança?</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(25)</p>
-                        <p class="comentarios">Comentarios(8)</p>
+                        <button class="curtidas" onclick="Curtir()" id="curtidas">
+                            Curtidas(<span id="curtCyber">53</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment10()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar10">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -237,8 +336,17 @@
                     <p class="envio" id="tempo3">Enviado a 2 horas</p>
                     <p class="duvida" id="sua_duvida03">Liguei um arquivo Python com um banco de dados SQL, mas ta dando esse erro aqui "ERRO[404], o Visual Studio Code não diz mais nada sobre isso, não sei o que fazer agora!</p>
                     <div class="end-interative">
-                        <p class="curtidas">Curtidas(0)</p>
-                        <p class="comentarios">Comentarios(0)</p>
+                        <button class="curtidas" onclick="Curtir1()" id="curtidas">
+                            Curtidas(<span id="curt1">0</span>)
+                        </button>
+                        <p class="comentarios" onclick="coment11()">Comentarios(9)</p>
+                    </div>
+                    <div class="comentar" id="comentar11">
+                        <p class="texto_preencher2">Digite seu Comentário:</p>
+                        <div class="coment">
+                            <input type="text" class="comentar_input" id="comentar_input">
+                            <input type="button" class="botaozin2" value="Publicar">
+                        </div>
                     </div>
                 </div>
             </div>

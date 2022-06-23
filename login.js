@@ -1,3 +1,9 @@
+document.addEventListener("keypress", function(e) {
+    if(e.key === 'Enter') {
+        var btn = document.querySelector("#enter");
+      btn.click();
+    }
+  });
 function Enter(){
     let email = document.querySelector('#email').value;
     let senha = document.getElementById('senha').value;

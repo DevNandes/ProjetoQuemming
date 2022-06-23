@@ -1,3 +1,9 @@
+document.addEventListener("keypress", function(e) {
+    if(e.key === 'Enter') {
+        var btn = document.querySelector("#enter");
+      btn.click();
+    }
+  });
 function publicar() {
     let usuario = document.getElementById('nome_usuario').value 
     let duvida = document.getElementById('duvida').value
@@ -49,5 +55,174 @@ function publicar() {
         temp2.innerHTML = 'Enviado a 10 segs'
         sumi2.style.display= 'flex'
         window.scroll(0, 900);
+    }
+}
+
+function Curtir() {
+    let Curtida = document.getElementById('curtCyber').innerHTML;
+    document.getElementById('curtCyber').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir1() {
+    let Curtida = document.getElementById('curt1').innerHTML;
+    document.getElementById('curt1').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir2() {
+    let Curtida = document.getElementById('curt2').innerHTML;
+    document.getElementById('curt2').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir3() {
+    let Curtida = document.getElementById('curt3').innerHTML;
+    document.getElementById('curt3').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir4() {
+    let Curtida = document.getElementById('curt4').innerHTML;
+    document.getElementById('curt4').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir5() {
+    let Curtida = document.getElementById('curt5').innerHTML;
+    document.getElementById('curt5').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir6() {
+    let Curtida = document.getElementById('curt6').innerHTML;
+    document.getElementById('curt6').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir7() {
+    let Curtida = document.getElementById('curt7').innerHTML;
+    document.getElementById('curt7').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir8() {
+    let Curtida = document.getElementById('curt8').innerHTML;
+    document.getElementById('curt8').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir9() {
+    let Curtida = document.getElementById('curt9').innerHTML;
+    document.getElementById('curt9').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir10() {
+    let Curtida = document.getElementById('curt10').innerHTML;
+    document.getElementById('curt10').innerHTML = Number(Curtida) + 1
+}
+
+function Curtir11() {
+    let Curtida = document.getElementById('curt11').innerHTML;
+    document.getElementById('curt11').innerHTML = Number(Curtida) + 1
+}
+
+function coment(){
+    let comenta = document.getElementById('comentar')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment1(){
+    let comenta = document.getElementById('comentar1')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment2(){
+    let comenta = document.getElementById('comentar2')
+    comenta.style.display = 'none'
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment3(){
+    let comenta = document.getElementById('comentar3')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment4(){
+    let comenta = document.getElementById('comentar4')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment5(){
+    let comenta = document.getElementById('comentar5')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment6(){
+    let comenta = document.getElementById('comentar6')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment7(){
+    let comenta = document.getElementById('comentar7')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment8(){
+    let comenta = document.getElementById('comentar8')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment9(){
+    let comenta = document.getElementById('comentar9')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment10(){
+    let comenta = document.getElementById('comentar10')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
+    }
+}
+
+function coment11(){
+    let comenta = document.getElementById('comentar11')
+    if (comenta.style.display == 'none'){
+        comenta.style.display = 'flex'
+    } else {
+        comenta.style.display = 'none'
     }
 }
